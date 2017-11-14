@@ -1,5 +1,5 @@
 
-git add .
+git -c /home/sk/ShellScriptingTesting/TestingWithGit/gittest/ add .
 curtime=`date`
-git commit -m "Automatic Backup @ $curtime"
-git push -f origin master
+git -c /home/sk/ShellScriptingTesting/TestingWithGit/gittest/ commit -m "Automatic Backup @ $curtime"
+git -c /home/sk/ShellScriptingTesting/TestingWithGit/gittest/ push -f origin master
